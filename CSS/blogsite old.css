@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Beginning of the Main Navigation*/
+#homePhoto {
+  height: 60px;
+  margin: 0;
+  padding: 0;
+}
+.top-nav {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #009570;
+  border-bottom: 10px solid;
+  border-color: black;
+}
+
+.top-nav a {
+  float: left;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.top-nav a:hover {
+  background-color: white;
+  color: black;
+}
+.top-nav a.active {
+  background-color: black;
+  color: white;
+}
+.top-link a.active {
+  background-color: black;
+  color: white;
+}
+.top-nav img {
+  padding: 0px;
+  margin: 0;
+  float: left;
+  text-align: left;
+}
+.top-left a.page {
+  background-color: #009570;
+  padding: 5px 10px 0px 15px;
+}
+.links{
+  float: right;
+}
+.links a {
+    float: left;
+    padding: 18px 30px;
+}
+.icon{display: none;}
+#sitename{
+  font-weight: bold;
+  font-size: 20px;
+}
+/* Ending of the Main Navigation*/
+
+/* Beginning of the Home Page*/
+.background-image {
+  background-color: black;
+  height: 280px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  top: 55px;
+  padding: 150px;
+  text-align: center;
+  color: white;
+}
+.background-image h2 {
+  text-align: right;
+}
+.latest-news-nav {
+  position: relative;
+  z-index: 2;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+.latest-news-nav a {
+    color: white;
+}
+.latest-news{
+  background-color: lightgray;
+  padding: 10px;
+  text-align: center;
+}
+/* Ending of the Main Home Page*/
+
+/* Beginning of the Secondary Navigation*/
+.second-navbar {
+  position: relative;
+  top: 55px;
+  height: 60px;
+  z-index: 1;
+  overflow: hidden;
+  background-color: black;
+}
+.second-navbar a {
+  float: left;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.second-navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+.second-navbar a.active {
+  background-color: lightgray;
+  color: black;
+}
+.page-heading a.page-title {
+  text-align: left;
+  background-color: black;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px 20px;
+}
+.page-heading a.page-title:hover {
+  color: white;
+}
+.second-tabs{
+  float: right;
+}
+.second-tabs a {
+    float: left;
+    padding: 17px 35px;
+}
+.second-tabs a:hover {
+  background-color: white;
+  color: black;
+}
+.nav-contents {
+  left: 0;
+  overflow: hidden;
+  float:left;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*.nav-contents a:hover {
+  background-color: white;
+  color: black;
+  border-left: 10px solid;
+  border-color: lightgray;
+}
+.second-nav {
+  background-color: black;
+}
+.second-nav a {
+  color: white;
+}
+.second-nav a.active {
+  background-color: lightgray;
+  color: black;
+}
+.second-nav a:hover {
+  background-color: white;
+  color: black;
+}*/
+.second-nav {
+  height: 583px;
+  float: left;
+  position: relative;
+  top: 50px;
+  z-index: 1;
+  width: 160px;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.second-nav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+}
+
+.second-nav a:hover {
+  color: black;
+  background-color: white;
+}
+.second-nav a.active {
+  background-color: lightgray;
+color: black;
+}
+.content {
+  height: 583px;
+  position: relative;
+  top:48px;
+  z-index: 1;
+  background-color: lightgray;
+  color: black;
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 10px 10px;
+}
+
+/* Ending of the Secondary Navigation*/
+
+/* Beginning of the Footer Details*/
+.details {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background-color: #009570;
+  padding: 30px 0px 15px 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+.details a {
+  color:white;
+}
+.home-details {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background-color: #009570;
+  padding: 30px 0px 15px 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+.home-details a {
+  color:white;
+}
+/* Ending of the Footer Details*/

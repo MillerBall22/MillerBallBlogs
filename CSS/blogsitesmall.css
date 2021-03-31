@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Beginning of the Main Navigation*/
+#homePhoto {
+  height: 43px;
+  margin: 0;
+  padding: 0;
+}
+.top-nav {
+  overflow: hidden;
+  position: relative;
+  background-color: #009570;
+  border-bottom: 10px solid;
+  border-color: black;
+  width: 100%;
+}
+
+.top-nav a {
+  display: block;
+  color: black;
+  text-align: left;
+  text-decoration: none;
+  font-size: 17px;
+}
+.top-nav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 33px;
+  width:10%;
+  color: white;
+  font-size:1.5em;
+  text-align: center;
+  padding: 10px 10px 0px;
+}
+.top-nav a:hover {
+  background-color: white;
+  color: black;
+}
+.top-nav a.active {
+  background-color: black;
+  color: white;
+}
+.top-link a.active {
+  background-color: black;
+  color: white;
+}
+.top-nav img {
+  padding: 0px;
+  margin: 0;
+  float: left;
+  text-align: left;
+}
+.top-left a.page {
+  background-color: #009570;
+}
+.links{
+  display: none;
+}
+.links a {
+    padding: 18px 30px;
+}
+#sitename{
+  font-weight: bold;
+  font-size: 20px;
+  padding:10px;
+}
+#mobile-sitename{
+  padding:10px;
+}
+/* Ending of the Main Navigation*/
+
+/* Beginning of the Home Page*/
+.background-image {
+  background-color: black;
+  height: 280px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  top: -10px;
+  text-align: center;
+  color: white;
+}
+.background-image h1 {
+  text-align: center;
+  font-size: 14px;
+  padding: 10px
+}
+.background-image h2 {
+  text-align: right;
+  font-size: 12px;
+}
+.latest-news-nav {
+  position: relative;
+  top: -10px;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+.latest-news-nav a {
+    color: white;
+}
+.latest-news{
+  position: relative;
+  top: -10px;
+  background-color: lightgray;
+  padding: 10px;
+  text-align: center;
+}
+/* Ending of the Main Home Page*/
+
+/* Beginning of the Secondary Navigation*/
+.second-navbar {
+  position: relative;
+  height: 34px;
+  z-index: 1;
+  overflow: hidden;
+  background-color: black;
+}
+.second-navbar a {
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.second-navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+.second-navbar a.active {
+  background-color: lightgray;
+  color: black;
+}
+.page-heading a.page-title {
+  display: none;
+}
+.second-tabs a {
+    float: left;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+.second-tabs a:hover {
+  background-color: white;
+  color: black;
+}
+.nav-contents {
+  left: 0;
+  overflow: hidden;
+  float:left;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+.content {
+  position: relative;
+  z-index: 1;
+  background-color: lightgray;
+  color: black;
+  padding: 10px 10px;
+}
+.content h3{
+  text-align: center;
+  font-size: 14px;
+}
+.content p{
+  font-size: 12px;
+  text-align:left;
+}
+
+.sub-cat {
+  margin-bottom: 20px;
+  padding: 10px 50px 20px;
+  width: 100%;
+  border-bottom: 10px solid;
+  border-radius: 10px;
+}
+
+#reasoning {
+  background-color: #004296;
+    color: white;
+    border-color: #004296;
+}
+
+#planning {
+  background-color: #FF6F0C;
+    color: white;
+    border-color: #FF6F0C;
+}
+
+#progress {
+  background-color: #004296;
+    color: white;
+    border-color: #004296;
+}
+/* Ending of the Secondary Navigation*/
+
+/* Beginning of the Footer Details*/
+.details {
+  position: relative;
+  background-color: #009570;
+  padding: 30px 0px 15px 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+.details a {
+  color:white;
+}
+.home-details {
+  position: relative;
+  top: -10px;
+  background-color: #009570;
+  padding: 30px 0px 15px 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+.home-details a {
+  color:white;
+}
+/* Ending of the Footer Details*/
